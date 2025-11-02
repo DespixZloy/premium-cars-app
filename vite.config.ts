@@ -7,5 +7,9 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: "/premium-cars-app/"
+  base: "/premium-cars-app/",
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+  }
 });
