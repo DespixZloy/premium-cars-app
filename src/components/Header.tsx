@@ -8,14 +8,14 @@ export function Header() {
   const location = useLocation();
 
   const navLinks = [
-    { path: '/', label: 'Главная' },
-    { path: '/brands', label: 'Бренды' },
-    { path: '/sell', label: 'Продать авто' },
-    { path: '/commission', label: 'Комиссия' },
-    { path: '/order', label: 'Заказ авто' },
-    { path: '/video', label: 'Видео' },
-    { path: '/reviews', label: 'Отзывы' },
-    { path: '/contacts', label: 'Контакты' },
+    { path: '/#/', label: 'Главная' },
+    { path: '/#/brands', label: 'Бренды' },
+    { path: '/#/sell', label: 'Продать авто' },
+    { path: '/#/commission', label: 'Комиссия' },
+    { path: '/#/order', label: 'Заказ авто' },
+    { path: '/#/video', label: 'Видео' },
+    { path: '/#/reviews', label: 'Отзывы' },
+    { path: '/#/contacts', label: 'Контакты' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
