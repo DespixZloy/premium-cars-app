@@ -84,14 +84,14 @@ export function HomePage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <Link
-              to="/brands"
+              to="/#/brands"
               className="group px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-gold to-gold-light hover:from-gold-light hover:to-gold text-black font-semibold rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-gold/50 flex items-center justify-center space-x-2 min-w-[200px]"
             >
               <span>Выбрать автомобиль</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
             <Link
-              to="/contacts"
+              to="/#/contacts"
               className="group px-6 sm:px-8 py-3 sm:py-4 bg-transparent border-2 border-gold text-gold hover:bg-gold hover:text-black font-semibold rounded-full transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 min-w-[200px]"
             >
               <span>Связаться с нами</span>
@@ -140,7 +140,7 @@ export function HomePage() {
                   transition={{ delay: index * 0.1, duration: 0.5 }}
                 >
                   <Link
-                    to={`/brand/${brand.slug}`}
+                    to={`/#/brand/${brand.slug}`}
                     className="block bg-gray-900 rounded-lg p-6 border border-gold/20 hover:border-gold transition-all group hover:shadow-lg hover:shadow-gold/30 h-full"
                   >
                     <div className="flex items-center justify-center h-20 mb-4">
@@ -172,7 +172,7 @@ export function HomePage() {
             className="text-center mt-12"
           >
             <Link
-              to="/brands"
+              to="/#/brands"
               className="inline-flex items-center space-x-2 text-gold hover:text-gold-light transition-colors font-semibold"
             >
               <span>Посмотреть все бренды</span>
@@ -216,7 +216,7 @@ export function HomePage() {
                   className="group"
                 >
                   <Link
-                    to={`/car/${car.id}`}
+                    to={`/#/car/${car.id}`}
                     className="block bg-gradient-to-br from-gray-900 to-black rounded-xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-gold/30 border border-gold/20 hover:border-gold/50"
                   >
                     <div className="relative h-64 overflow-hidden">
