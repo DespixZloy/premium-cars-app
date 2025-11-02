@@ -10,7 +10,7 @@ import { CommissionPage } from './pages/CommissionPage';
 import { OrderPage } from './pages/OrderPage';
 import { VideoPage } from './pages/VideoPage';
 import { ContactsPage } from './pages/ContactsPage';
-import { ScrollToTop } from './components/ScrollToTop'
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   return (
